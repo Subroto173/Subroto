@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+ 
+}
+.new{
+    height: 45px;
+    width: 75%;
+    background-color: black;
+margin: auto;
+}
+
+
+.new ul{
+
+    list-style-type: none;
+  
+}
+.new ul li{
+    float: left;
+    position: relative;
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+.new ul li a{
+  
+    display: block;
+   color: blanchedalmond;
+   padding:10px 20px;
+font-size:20px;
+
+}
+
+
+.new ul li a:hover{
+    background-color: cadetblue;
+}
+.new ul li ul{
+    position: absolute;
+    background-color: black;
+   
+}
+.new ul li ul li{
+ width: 100%;
+}
+.new ul li ul a{
+    padding: 15px 20px 15px 20px; 
+}
